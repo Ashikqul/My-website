@@ -25,6 +25,11 @@ padding: 18px 35px;
 border-radius: 5px;
 border: none;
 }
+.text-center{
+    text-align: center;
+}
+
+
 /* header */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -117,4 +122,13 @@ main{
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight:600;
+
 }
